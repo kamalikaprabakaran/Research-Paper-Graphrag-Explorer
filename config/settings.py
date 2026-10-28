@@ -10,6 +10,7 @@ class Settings(BaseSettings):
 
     OPENROUTER_API_KEY: Optional[str] = Field(default=None)
     OPENROUTER_MODEL: str = Field(default="")
+    OPENROUTER_BASE_URL: Optional[str] = Field(default=None)
     NEO4J_URI: Optional[str] = Field(default=None)
     NEO4J_USERNAME: Optional[str] = Field(default=None)
     NEO4J_PASSWORD: Optional[str] = Field(default=None)
