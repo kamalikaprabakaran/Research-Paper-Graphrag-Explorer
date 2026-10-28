@@ -1,4 +1,4 @@
-"""Retrieval package – text chunking, local embeddings, and (future) search."""
+"""Retrieval package – text chunking, local embeddings, and vector search."""
 
 from retrieval.chunker import TextChunk, chunk_document, chunk_pages
 from retrieval.embedder import (
@@ -8,6 +8,7 @@ from retrieval.embedder import (
     embed_chunks,
     embed_query,
 )
+from retrieval.vector_store import SearchResult, VectorStore
 
 __all__ = [
     # chunker
@@ -20,4 +21,7 @@ __all__ = [
     "DEFAULT_MODEL",
     "embed_chunks",
     "embed_query",
+    # vector store
+    "VectorStore",
+    "SearchResult",
 ]
