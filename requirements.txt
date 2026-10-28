@@ -1,0 +1,11 @@
+streamlit
+pymupdf
+sentence-transformers
+faiss-cpu
+neo4j
+openai
+python-dotenv
+pydantic
+pydantic-settings
+pyvis
+pytest
